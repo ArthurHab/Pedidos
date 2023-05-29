@@ -1,0 +1,14 @@
+.botaoFinalizarPedido{
+    height: 75px;
+    width: 175px;
+    border: none;
+    border-radius: 30px;
+    background-color: #08fc92;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.botaoFinalizarPedido:hover{
+    background-color: #1dcd81;
+    cursor: pointer;
+}

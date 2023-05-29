@@ -1,0 +1,14 @@
+.miniBox{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
