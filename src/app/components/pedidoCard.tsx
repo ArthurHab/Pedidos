@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { pedidoValorTotal } from '../services/product'
 import styles from '../styles/pedidoCard.module.css'
+import { ButtonProduct } from './buttonProduct'
 
 export const PedidoCard = ({ idPedido, pedido}: any) => {
 
@@ -9,10 +10,10 @@ export const PedidoCard = ({ idPedido, pedido}: any) => {
     return(
         <>
             <div className={styles.pedidoCard}>
-                <div>Nº pedido</div>
-                <div>{idPedido}</div>
+                <div>Nº {idPedido}</div>
                 <div>Valor total</div>
                 <div>R$ {valorTotal}</div>
+                <ButtonProduct color={'green'} icon={'Entregar'}/>
             </div>
         </>
     )
