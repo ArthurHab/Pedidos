@@ -25,7 +25,7 @@ O Pedidos é um projeto no qual permite ao usuário ter um gerenciador de pedido
 ## ✨ Layout
 
 <p align="center">
-  <img alt="layout" src="./github/assets/layout.jpg">
+  <img alt="layout" src="./github/assets/layout.jpeg">
 </p>
 
 ## 🔖 Como executar
