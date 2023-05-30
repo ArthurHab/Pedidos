@@ -3,6 +3,7 @@
     flex-direction: row;
     padding: 50px;
     gap: 20px;
+    justify-content: center;
 }
 
 .titleSection{
@@ -22,4 +23,16 @@
     flex-direction: column;
     gap: 30px;
     align-items: center;
+}
+
+@media (max-width: 1040px){
+    .pedido{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 372px){
+    .pedido{
+        padding: 10px;
+    }
 }
