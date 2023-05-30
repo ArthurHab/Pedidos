@@ -34,7 +34,7 @@ O Pedidos é um projeto no qual permite ao usuário ter um gerenciador de pedido
 - Instale as dependências com `npm`
 - Inicie o servidor com `npm run dev`
 
-Agora você pode acessar [`localhost:3001`](http://localhost:3000) do seu navegador.
+Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
 ## 🎬 Executando a aplicação
 
