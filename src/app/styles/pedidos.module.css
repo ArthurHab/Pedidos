@@ -3,7 +3,7 @@
     flex-direction: row;
     padding: 50px;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .titleSection{
